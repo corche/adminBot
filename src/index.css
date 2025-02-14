@@ -2,30 +2,23 @@
 @import "tailwindcss";
 
 @theme {
-	--color-light-green-100: #38894d;
+	--color-light-green-100: #265332;
+	--color-light-green-200: #38894d;
 	--color-light-green-500: #f3f5f4;
 }
 
 @layer base {
 	* {
-		font-family:
-			"Pretendard Variable",
-			Pretendard,
-			-apple-system,
-			BlinkMacSystemFont,
-			system-ui,
-			Roboto,
-			"Helvetica Neue",
-			"Segoe UI",
-			"Apple SD Gothic Neo",
-			"Noto Sans KR",
-			"Malgun Gothic",
-			"Apple Color Emoji",
-			"Segoe UI Emoji",
-			"Segoe UI Symbol",
-			sans-serif;
+		font-family: "Pretendard Variable", Pretendard, -apple-system,
+			BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+			"Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic",
+			"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 		@apply text-neutral-500 font-medium;
 	}
+}
+
+* {
+	transition-timing-function: cubic-bezier(0.13, 0.2, 0, 1.22);
 }
 
 .landing {
