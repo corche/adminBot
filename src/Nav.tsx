@@ -23,26 +23,47 @@ export default function Nav() {
 			<div
 				className={`${
 					scroll
-						? "w-[60vw] bg-white/30 backdrop-blur-xl mt-2"
-						: "w-[100vw] bg-white/0 px-[5vw]"
-				} fixed top-0 px-2 rounded-2xl h-[60px] flex justify-between items-center duration-500 ml-[50vw] translate-x-[-50%]`}
+						? "w-[90vw] sm:w-[50vw] bg-white/60 backdrop-blur-xl mt-5 border border-neutral-300/30"
+						: "w-[100vw] bg-white/0 sm:px-[10vw] border border-white/0"
+				} fixed top-0 px-2 rounded-2xl h-[60px] flex justify-between items-center duration-500 ml-[50vw] translate-x-[-50%] z-10 max-w-[1500px]`}
 			>
-				<div className="text-2xl ml-6 font-bold text-neutral-800">
+				<div className="text-2xl ml-6 font-bold text-neutral-800 w-[63px]">
 					관리봇
 				</div>
-				<div className="text-base flex w-[200px]">
+				<div className="hidden text-base sm:flex justify-between w-[calc(100%-250px)] max-w-[50%] sm:max-w-[300px]">
 					<div
-						className={`cursor-pointer w-[100px] text-center text-light-green-100 relative after:absolute after:bottom-0 after:left-[50%] after:translate-x-[-50%] after:rounded-2xl after:w-[20px] after:h-[2px] after:bg-light-green-200`}
+						className={`cursor-pointer text-center hover:text-light-green-200`}
+						onClick={() => {
+							window.open(
+								"https://discord.com/invite/zksAdcYeR7"
+							);
+						}}
+					>
+						디스코드
+					</div>
+					<div
+						className={`cursor-pointer text-center text-light-green-200 relative after:absolute after:bottom-0 after:left-[50%] after:translate-x-[-50%] after:rounded-2xl after:w-[20px] after:h-[2px] after:bg-light-green-200 hover:text-light-green-200`}
 					>
 						홈
 					</div>
-					<div className={`cursor-pointer w-[100px] text-center`}>
+					<div
+						className={`cursor-pointer text-center hover:text-light-green-200`}
+					>
 						도움말
 					</div>
 				</div>
-				<button className="cursor-pointer w-[100px] h-[42px] flex items-center justify-center text-base text-neutral-100 bg-light-green-200 hover:bg-light-green-100 rounded-xl duration-200">
-					초대하기
-				</button>
+				<div className="flex items-center justify-center gap-1">
+					<button
+						className="cursor-pointer w-[100px] h-[42px] flex items-center justify-center text-base text-neutral-100 bg-light-green-200 hover:bg-light-green-100 rounded-xl duration-200"
+						onClick={() => {
+							window.open(
+								"https://discord.com/oauth2/authorize?client_id=1336244578747154473"
+							);
+						}}
+					>
+						초대하기
+					</button>
+				</div>
 			</div>
 		</>
 	);
