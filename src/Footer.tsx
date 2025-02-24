@@ -2,7 +2,7 @@ export default function Footer() {
 	return (
 		<div className="h-60 bg-light-green-500 justify-center mt-40">
 			<div className="w-[90vw] sm:w-[70vw] max-w-[1080px] flex justify-between ml-[50%] translate-x-[-50%] py-15">
-				<div className="flex flex-col">
+				<div className="flex flex-col ml-10">
 					<div className="text-3xl text-neutral-800 font-bold">
 						관리봇
 					</div>
@@ -24,7 +24,14 @@ export default function Footer() {
 					>
 						초대하기
 					</div>
-					<div className="cursor-pointer text-sm hover:text-neutral-600 underline">
+					<div
+						className="cursor-pointer text-sm hover:text-neutral-600 underline"
+						onClick={() => {
+							window.open(
+								"https://local-peridot-030.notion.site/1a428761e9ef805dbddfcc9af68dd8c4"
+							);
+						}}
+					>
 						도움말
 					</div>
 					<div
@@ -35,7 +42,7 @@ export default function Footer() {
 							);
 						}}
 					>
-						디스코드
+						서포트 서버
 					</div>
 				</div>
 			</div>

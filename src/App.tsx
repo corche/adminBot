@@ -89,29 +89,30 @@ export default function App() {
 						<br />
 						관리봇을 초대하세요!
 					</div>
-					<div className="flex flex-row gap-2 sm:gap-5 w-full justify-center flex-wrap">
-						<button
-							className="w-[200px] border border-light-green-200 hover:light-green-100 bg-light-green-200 py-4.5 text-neutral-100 rounded-2xl cursor-pointer hover:bg-light-green-100 duration-300"
-							onClick={() => {
-								window.open(
-									"https://discord.com/oauth2/authorize?client_id=1336244578747154473"
-								);
-							}}
-						>
-							초대하기
-						</button>
-						<button
-							className="w-[200px] text-neutral-700 py-4.5  bg-light-green-500 cursor-pointer hover:bg-light-green-400 duration-300 rounded-2xl"
-							onClick={() => {
-								window.open(
-									"https://discord.com/invite/zksAdcYeR7"
-								);
-							}}
-						>
-							디스코드 서버에 참여하기
-						</button>
-					</div>
+					<button
+						className="w-[200px] border border-light-green-200 hover:light-green-100 bg-light-green-200 py-4.5 text-neutral-100 rounded-2xl cursor-pointer hover:bg-light-green-100 duration-300"
+						onClick={() => {
+							window.open(
+								"https://discord.com/oauth2/authorize?client_id=1336244578747154473"
+							);
+						}}
+					>
+						초대하기
+					</button>
 				</div>
+				<div className="mt-4 flex items-center gap-3 text-neutral-300 font-light">
+					<div className="w-20 h-[1px] bg-neutral-200"></div>
+					또는
+					<div className="w-20 h-[1px] bg-neutral-200"></div>
+				</div>
+				<button
+					className="w-[200px] text-neutral-500 mt-6 underline cursor-pointer"
+					onClick={() => {
+						window.open("https://discord.com/invite/zksAdcYeR7");
+					}}
+				>
+					서포트 서버에 참여하기
+				</button>
 			</div>
 			<Footer />
 		</>
