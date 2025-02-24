@@ -23,14 +23,15 @@ export default function Nav() {
 			<div
 				className={`${
 					scroll
-						? "w-[90vw] sm:w-[50vw] bg-white/60 backdrop-blur-xl mt-5 border border-neutral-300/30"
+						? "w-[90vw] sm:w-[70vw] lg:w-[50vw] bg-white/60 backdrop-blur-xl mt-5 border border-neutral-300/30"
 						: "w-[100vw] bg-white/0 sm:px-[10vw] border border-white/0"
 				} fixed top-0 px-2 rounded-2xl h-[60px] flex justify-between items-center duration-500 ml-[50vw] translate-x-[-50%] z-10 max-w-[1500px]`}
 			>
-				<div className="text-2xl ml-6 font-bold text-neutral-800 w-[63px]">
+				<div className="text-2xl ml-6 font-bold text-neutral-800 w-[80px] flex gap-1 items-center">
+					<img src="adminBot.ico" width={30} height={30} />
 					관리봇
 				</div>
-				<div className="hidden text-base sm:flex justify-between w-[calc(100%-250px)] max-w-[50%] sm:max-w-[300px]">
+				<div className="hidden text-base sm:flex justify-between w-[calc(100%-30	0px)] max-w-[50%] sm:max-w-[300px]">
 					<div
 						className={`cursor-pointer text-center hover:text-light-green-200`}
 						onClick={() => {
@@ -39,7 +40,7 @@ export default function Nav() {
 							);
 						}}
 					>
-						디스코드
+						서포트 서버
 					</div>
 					<div
 						className={`cursor-pointer text-center text-light-green-200 relative after:absolute after:bottom-0 after:left-[50%] after:translate-x-[-50%] after:rounded-2xl after:w-[20px] after:h-[2px] after:bg-light-green-200 hover:text-light-green-200`}
@@ -48,6 +49,11 @@ export default function Nav() {
 					</div>
 					<div
 						className={`cursor-pointer text-center hover:text-light-green-200`}
+						onClick={() => {
+							window.open(
+								"https://local-peridot-030.notion.site/1a428761e9ef805dbddfcc9af68dd8c4"
+							);
+						}}
 					>
 						도움말
 					</div>
