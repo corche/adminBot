@@ -31,7 +31,7 @@ export default function Nav() {
 					<img src="adminBot.ico" width={30} height={30} />
 					관리봇
 				</div>
-				<div className="hidden text-base sm:flex justify-between w-[calc(100%-30	0px)] max-w-[50%] sm:max-w-[300px]">
+				<div className="hidden text-base sm:flex justify-between w-[calc(100%-300px)] max-w-[50%] sm:max-w-[300px]">
 					<div
 						className={`cursor-pointer text-center hover:text-light-green-200`}
 						onClick={() => {
