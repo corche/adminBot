@@ -24,6 +24,7 @@ export default function Help() {
 						일반명령어(!, {">"}, @관리봇)로도 사용하실 수 있습니다.
 						<br />
 				</div>
+			</div>
 
 				{/** 가입기능 **/}
 				<div className="flex flex-col gap-5">
