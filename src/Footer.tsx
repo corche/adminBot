@@ -1,6 +1,10 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Footer() {
+	const navigation = useNavigate();
+
 	return (
-		<div className="h-60 bg-light-green-500 justify-center mt-40">
+		<div className="h-60 bg-light-green-500 justify-center pt-40">
 			<div className="w-[90vw] sm:w-[70vw] max-w-[1080px] flex justify-between ml-[50%] translate-x-[-50%] py-15">
 				<div className="flex flex-col ml-10">
 					<div className="text-3xl text-neutral-800 font-bold">
@@ -11,7 +15,12 @@ export default function Footer() {
 					</div>
 				</div>
 				<div className="flex flex-col gap-0.5 mr-[40px]">
-					<div className="cursor-pointer text-sm hover:text-neutral-600 underline">
+					<div
+						className="cursor-pointer text-sm hover:text-neutral-600 underline"
+						onClick={() => {
+							navigation("/");
+						}}
+					>
 						홈
 					</div>
 					<div
@@ -27,9 +36,7 @@ export default function Footer() {
 					<div
 						className="cursor-pointer text-sm hover:text-neutral-600 underline"
 						onClick={() => {
-							window.open(
-								"http://adminbot.kro.kr/helpAdminbot/"
-							);
+							navigation("/help");
 						}}
 					>
 						도움말

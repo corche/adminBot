@@ -4,6 +4,7 @@
 @theme {
 	--color-light-green-100: #2d5d3a;
 	--color-light-green-200: #38894d;
+	--color-light-green-300: #6cbb81;
 	--color-light-green-400: #e4e7e5;
 	--color-light-green-500: #f3f5f4;
 }
@@ -87,4 +88,19 @@
 
 .list-shadow {
 	box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-shadow {
+	box-shadow: 0 0 20px
+		color-mix(in srgb, var(--color-light-green-300) 40%, transparent 0%);
+}
+
+.cm {
+	& > span {
+		@apply p-2 bg-light-green-500 rounded-md;
+	}
+
+	& > span:nth-child(1) {
+		@apply text-light-green-200;
+	}
 }
