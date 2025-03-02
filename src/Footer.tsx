@@ -28,7 +28,7 @@ export default function Footer() {
 						className="cursor-pointer text-sm hover:text-neutral-600 underline"
 						onClick={() => {
 							window.open(
-								"https://adminbot-help.notion.site/1a428761e9ef805dbddfcc9af68dd8c4?pvs=74"
+								"http://adminbot.kro.kr/helpAdminbot/"
 							);
 						}}
 					>
