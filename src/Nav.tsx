@@ -51,11 +51,7 @@ export default function Nav() {
 						className={`cursor-pointer text-center hover:text-light-green-200`}
 						onClick={() => {
 							window.open(
-<<<<<<< HEAD
 								"http://adminbot.kro.kr/helpAdminbot/"
-=======
-								"https://adminbot-help.notion.site/1a428761e9ef805dbddfcc9af68dd8c4?pvs=74"
->>>>>>> d40e44288a6ef1a4504e3d805d3ec9219d0d247d
 							);
 						}}
 					>
