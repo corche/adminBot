@@ -50,6 +50,12 @@ export default function App() {
 				</div>
 				<div className="flex flex-row flex-wrap w-full gap-5 mt-12 max-w-[1260px] justify-center">
 					<Card
+						_class="border border-light-green-300 card-shadow"
+						title="관리"
+						desc="밴 킥 뮤트 채널 슬로우 챗 등 관리봇으로 간편하게 관리해 보세요!"
+						icon={<Wrench />}
+					/>
+					<Card
 						title="노래"
 						desc="멜론차트, 유튜브 노래 검색, 재생목록으로 다양한 음악을 즐길
 					수 있어요!"
@@ -64,11 +70,6 @@ export default function App() {
 						title="주식"
 						desc="시시각각 변하는 주식 시장에서 얼마나 큰 돈을 따낼 수 있을까요?"
 						icon={<ChartNoAxesCombined />}
-					/>
-					<Card
-						title="관리"
-						desc="밴 킥 뮤트 채널 슬로우 챗 등 다양한 기능을 간편하게 써보세요!"
-						icon={<Wrench />}
 					/>
 					<Card
 						title="게임"
