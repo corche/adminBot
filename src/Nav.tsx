@@ -31,7 +31,7 @@ export default function Nav() {
 					<img src="adminBot.ico" width={30} height={30} />
 					관리봇
 				</div>
-				<div className="hidden text-base sm:flex justify-between w-[calc(100%-30	0px)] max-w-[50%] sm:max-w-[300px]">
+				<div className="hidden text-base sm:flex justify-between w-[calc(100%-300px)] max-w-[50%] sm:max-w-[300px]">
 					<div
 						className={`cursor-pointer text-center hover:text-light-green-200`}
 						onClick={() => {
@@ -51,7 +51,11 @@ export default function Nav() {
 						className={`cursor-pointer text-center hover:text-light-green-200`}
 						onClick={() => {
 							window.open(
+<<<<<<< HEAD
 								"http://adminbot.kro.kr/helpAdminbot/"
+=======
+								"https://adminbot-help.notion.site/1a428761e9ef805dbddfcc9af68dd8c4?pvs=74"
+>>>>>>> d40e44288a6ef1a4504e3d805d3ec9219d0d247d
 							);
 						}}
 					>
