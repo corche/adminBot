@@ -44,7 +44,7 @@ export default function App() {
 					</div>
 				</div>
 			</div>
-			<div className="mt-80 flex flex-col items-center">
+			<div className="mt-40 flex flex-col items-center">
 				<div className="text-4xl font-bold text-center text-neutral-800">
 					올인원 디스코드봇
 				</div>
@@ -57,8 +57,7 @@ export default function App() {
 					/>
 					<Card
 						title="노래"
-						desc="멜론차트, 유튜브 노래 검색, 재생목록으로 다양한 음악을 즐길
-					수 있어요!"
+						desc="멜론차트, 유튜브 노래 검색, 재생목록으로 다양한 음악을 즐길 수 있어요!"
 						icon={<Music2 />}
 					/>
 					<Card
@@ -83,15 +82,15 @@ export default function App() {
 					/>
 				</div>
 			</div>
-			<div className="mt-10 flex flex-col items-center">
-				<div className="mt-20 card max-w-[1080px] w-screen px-4 sm:w-[70vw] py-10 sm:py-20 sm:rounded-2xl flex flex-col items-center justify-center gap-8">
+			<div className="mt-20 flex flex-col items-center">
+				<div className="card max-w-[1080px] w-screen px-4 sm:w-[70vw] py-10 sm:py-20 sm:rounded-2xl flex flex-col items-center justify-center gap-8">
 					<div className="text-center text-3xl sm:text-4xl text-neutral-800 font-bold">
 						더이상 무슨봇을 사용할지 고민하지 말고
 						<br />
 						관리봇을 초대하세요!
 					</div>
 					<button
-						className="w-[200px] border border-light-green-200 hover:light-green-100 bg-light-green-200 py-4.5 text-neutral-100 rounded-2xl cursor-pointer hover:bg-light-green-100 duration-300"
+						className="w-[200px] border border-light-green-200 bg-light-green-200 py-4.5 text-neutral-100 rounded-2xl cursor-pointer hover:bg-light-green-100 duration-300"
 						onClick={() => {
 							window.open(
 								"https://discord.com/oauth2/authorize?client_id=1336244578747154473"
