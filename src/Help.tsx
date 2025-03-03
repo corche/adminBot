@@ -60,7 +60,7 @@ export default function Help() {
               { command: "/타임아웃해제 [유저]", description: "[유저] 의 타임아웃을 해제합니다." },
               { command: "/슬로우모드 [시간]", description: "채널의 슬로우모드를 [시간] 만큼 지정합니다." },
               { command: "/슬로우모드해제", description: "채널의 슬로우모드를 해제합니다." },
-              { command: "/입퇴장채널 [#채널]", description: "봇의 입퇴장 메시지를 보낼 채널을 지정합니다." },
+              { command: "/입퇴장채널 [채널]", description: "봇의 입퇴장 메시지를 보낼 채널을 지정합니다." },
               { command: "/역할부여 [유저] [역할]", description: "[유저] 에게 [역할] 을 부여합니다." },
             ].map(({ command, description }, index) => (
               <div className="flex items-start mb-3" key={index}>
