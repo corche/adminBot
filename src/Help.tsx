@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 import Nav from "./Nav";
-import helpImage from "../assets/adminbot.png";
+import helpImage from "../assets/adminbotHelp.png";
 
 export default function Help() {
   return (
