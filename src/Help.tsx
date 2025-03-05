@@ -9,7 +9,7 @@ export default function Help() {
       <div className="px-[20vw] mt-[80px] flex flex-col gap-10 bg-black text-white">
         {/** Banner Image **/}
         <div className="flex justify-center mb-5">
-          <img src={helpImage} alt="Help Banner" className="rounded-lg w-full" />
+          <img src={helpImage} alt="Help Image" style={{ width: "200px", height: "auto" }} />
         </div>
         
         <div className="flex flex-col gap-4">
