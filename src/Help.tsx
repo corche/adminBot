@@ -23,15 +23,15 @@ export default function Help() {
               관리봇의 모든 명령어에 대한 설명입니다.
             </div>
             <div className="p-5 bg-white bg-opacity-70 rounded-2xl shadow-sm">
-              <div className="font-bold text-gray-700">관리봇 도움말</div>
-              일반명령어(!, {">"}, @관리봇)로도 사용하실 수 있습니다.
+              <div className="font-bold text-gray-700">접두사(Prefix)</div>
+              관리봇은 슬래시커맨드 뿐만 아니라 일반커맨드(!, {">"}, @관리봇)로도 사용하실 수 있습니다.
             </div>
           </div>
 
           {/* 가입 기능 */}
           <div className="flex flex-col gap-5">
             <div className="text-2xl font-bold text-green-600">
-              👋 가입기능
+              👋 서비스 가입/탈퇴 
             </div>
             <div className="bg-white bg-opacity-70 p-4 rounded-lg shadow-sm">
               <div className="flex items-start mb-3">
