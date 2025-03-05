@@ -80,6 +80,8 @@ export default function Help() {
             </div>
             <div className="bg-white bg-opacity-70 p-4 rounded-lg shadow-sm">
               {[
+                { command: "/입장", description: "봇을 음성채널에 입장시킵니다." },
+                { command: "/퇴장", description: "봇을 음성채널에서 퇴장시키고 대기열을 초기화합니다." },
                 { command: "/재생 [노래 제목]", description: "[노래 제목] 을 재생합니다." },
                 { command: "/대기열추가 [노래 제목]", description: "[노래 제목] 을 대기열에 추가합니다." },
                 { command: "/정지", description: "현재 재생 중인 노래를 정지하고 다음노래를 재생합니다." },
