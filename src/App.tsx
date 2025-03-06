@@ -50,32 +50,37 @@ export default function App() {
 				</div>
 				<div className="flex flex-row flex-wrap w-full gap-5 mt-12 max-w-[1260px] justify-center">
 					<Card
-						_class="border border-light-green-300 card-shadow"
+					_class="border border-light-green-300 card-shadow"
 						title="관리"
 						desc="밴 킥 뮤트 채널 슬로우 챗 등 관리봇으로 간편하게 관리해 보세요!"
 						icon={<Wrench />}
 					/>
 					<Card
+					_class="border border-light-green-300 card-shadow"
 						title="노래"
 						desc="멜론차트, 유튜브 노래 검색, 재생목록으로 다양한 음악을 즐길 수 있어요!"
 						icon={<Music2 />}
 					/>
 					<Card
+					_class="border border-light-green-300 card-shadow"
 						title="경제"
 						desc="돈을 모아서 때부자가 되어보자구요."
 						icon={<CircleDollarSign />}
 					/>
 					<Card
+					_class="border border-light-green-300 card-shadow"
 						title="주식"
 						desc="시시각각 변하는 주식 시장에서 얼마나 큰 돈을 따낼 수 있을까요?"
 						icon={<ChartNoAxesCombined />}
 					/>
 					<Card
+					_class="border border-light-green-300 card-shadow"
 						title="게임"
 						desc="가위, 바위, 보! 이번엔 제가 이겼네요!😎"
 						icon={<Dices />}
 					/>
 					<Card
+					_class="border border-light-green-300 card-shadow"
 						title="레벨"
 						desc="다른 유저들보다 얼마나 많은 레벨을 쌓을 수 있나요? 채팅을 쳐서 레벨을 올려보세요!"
 						icon={<ChartLine />}
