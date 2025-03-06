@@ -10,7 +10,7 @@ export default function Help() {
       <div 
         className="min-h-screen w-full" 
         style={{ 
-          background: 'linear-gradient(to bottom, #2d5d3a, #38894d, #6cbb81, #e4e7e5, #f3f5f4)',
+          background: 'linear-gradient(to bottom, #e0ffff, #98FB98, #90EE90, #98FB98, #e0ffff)',
           backgroundAttachment: 'fixed'
         }}
       >
