@@ -8,11 +8,7 @@ export default function Help() {
       <Nav />
       {/* 이미지에 맞는 그라데이션 배경 적용 */}
       <div 
-        className="min-h-screen w-full" 
-        style={{ 
-          background: 'linear-gradient(to bottom, #e0ffff, #98FB98, #90EE90, #98FB98, #e0ffff)',
-          backgroundAttachment: 'fixed'
-        }}
+        className="min-h-screen w-full landing"
       >
         <div className="px-[20vw] pt-[80px] pb-10 flex flex-col gap-10 text-black">
           {/* 배너 이미지 */}
