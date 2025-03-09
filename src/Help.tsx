@@ -118,6 +118,27 @@ export default function Help() {
             </div>
           </div>
 
+          {/* 경제제 */}
+          <div className="flex flex-col gap-5">
+            <div className="text-2xl font-bold text-green-600">
+              💰 경제 기능
+            </div>
+            <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
+              {[
+                { command: "/돈벌기", description: "하루 2회, 랜덤으로 돈을 법니다" },
+                { command: "/잔액", description: "현재 잔액을 확인합니다." },
+                { command: "/송금 [유저] [금액]", description: "특정 유저에게 돈을 송금합니다." },
+                { command: "/송금확인", description: "송금내역을 확인하고 수락합니다." },
+                { command: "/송금내역", description: "최근 2주간의 모든 송금내역을 확인합니다." },
+              ].map(({ command, description }, index) => (
+                <div className="flex items-start mb-3" key={index}>
+                  <span className="font-bold text-green-600 mr-2">{command}</span>
+                  <span>- {description}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* 게임 기능 */}
           <div className="flex flex-col gap-5">
             <div className="text-2xl font-bold text-green-600">
@@ -125,8 +146,8 @@ export default function Help() {
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
               {[
-                { command: "/주사위", description: "랜덤으로 주사위를 굴립니다." },
-                { command: "/가위바위보 [가위/바위/보]", description: "봇과 가위바위보 대결을 합니다." },
+                { command: "/주사위 [금액]", description: "랜덤으로 주사위를 굴립니다." },
+                { command: "/가위바위보", description: "봇과 가위바위보 대결을 합니다." },
                 { command: "/도박 [금액]", description: "돈을 걸고 도박을 합니다." },
               ].map(({ command, description }, index) => (
                 <div className="flex items-start mb-3" key={index}>
