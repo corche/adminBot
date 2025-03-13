@@ -28,7 +28,6 @@ export default function Nav() {
 			window.removeEventListener("scroll", handleScroll);
 		};
 	}, [location.pathname]);
-
 	return (
 		<>
 			<div
@@ -40,7 +39,7 @@ export default function Nav() {
 			>
 				<div className="text-2xl ml-6 font-bold text-neutral-800 w-[80px] flex gap-1 items-center">
 					<img src="adminBot.ico" width={30} height={30} />
-					관리봇
+					가우디
 				</div>
 				<div className="hidden text-base sm:flex justify-between w-[calc(100%-300px)] max-w-[50%] sm:max-w-[300px]">
 					<div
@@ -54,7 +53,9 @@ export default function Nav() {
 						서포트 서버
 					</div>
 					<div
-						className={`cursor-pointer text-center hover:text-light-green-200 ${nowPath == "/" ? select : ""}`}
+						className={`cursor-pointer text-center hover:text-light-green-200 ${
+							nowPath == "/" ? select : ""
+						}`}
 						onClick={() => {
 							navigate("/");
 						}}
@@ -62,7 +63,9 @@ export default function Nav() {
 						홈
 					</div>
 					<div
-						className={`cursor-pointer text-center hover:text-light-green-200 ${nowPath == "/help" ? select : ""}`}
+						className={`cursor-pointer text-center hover:text-light-green-200 ${
+							nowPath == "/help" ? select : ""
+						}`}
 						onClick={() => {
 							navigate("/help");
 						}}

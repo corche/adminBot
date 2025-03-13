@@ -7,10 +7,10 @@ export default function Footer() {
 			<div className="w-[90vw] sm:w-[70vw] max-w-[1080px] flex justify-between">
 				<div className="flex flex-col">
 					<div className="text-3xl text-neutral-800 font-bold">
-						관리봇
+						가우디
 					</div>
 					<div className="text-sm mt-2">
-						Copyright Yangpa 2025 All Right Reserved.
+						Copyright TeamAdmin 2025 All Right Reserved.
 					</div>
 				</div>
 				<div className="flex flex-col gap-2">
