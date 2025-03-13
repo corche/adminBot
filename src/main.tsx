@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Help from "./Help.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-	<BrowserRouter basename="/adminBot">
+	<BrowserRouter basename="/">
 		<Routes>
 			<Route path="/" element={<App />} />
 			<Route path="/help" element={<Help />} />
