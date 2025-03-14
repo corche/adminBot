@@ -28,7 +28,7 @@ export default function App() {
 						아니면 친구가 서버에 왜이렇게 할게 없냐고 불평불만 하진
 						않았나요?
 						<br />
-						더이상 귀찮게 이봇 저봇 추가하지 말고 가우디 하나로
+						더이상 귀찮게 이봇 저봇 추가하지 말고 가디 하나로
 						해결하세요!
 					</div>
 					<div className="w-[70vw] max-w-[1080px] max-h-[608px] h-[calc(70vw/2)] mt-10 bg-light-green-500 rounded-2xl overflow-hidden">
@@ -52,7 +52,7 @@ export default function App() {
 					<Card
 						_class="border border-light-green-300 card-shadow"
 						title="관리"
-						desc="밴 킥 뮤트 채널 슬로우 챗 등 가우디으로 간편하게 관리해 보세요!"
+						desc="밴 킥 뮤트 채널 슬로우 챗 등 가디으로 간편하게 관리해 보세요!"
 						icon={<Wrench />}
 					/>
 					<Card
@@ -92,7 +92,7 @@ export default function App() {
 					<div className="text-center text-3xl sm:text-4xl text-neutral-800 font-bold">
 						더이상 무슨봇을 사용할지 고민하지 말고
 						<br />
-						가우디를 초대하세요!
+						가디를 초대하세요!
 					</div>
 					<button
 						className="w-[200px] border border-light-green-200 bg-light-green-200 py-4.5 text-neutral-100 rounded-2xl cursor-pointer hover:bg-light-green-100 duration-300"
