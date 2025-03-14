@@ -39,7 +39,7 @@ export default function Nav() {
 			>
 				<div className="text-2xl ml-6 font-bold text-neutral-800 w-[80px] flex gap-1 items-center">
 					<img src="adminBot.ico" width={30} height={30} />
-					가우디
+					가디
 				</div>
 				<div className="hidden text-base sm:flex justify-between w-[calc(100%-300px)] max-w-[50%] sm:max-w-[300px]">
 					<div
