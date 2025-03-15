@@ -30,5 +30,10 @@
 		"react-snap": "^1.23.0",
 		"typescript": "^5.2.2",
 		"vite": "^5.2.0"
+	},
+	"reactSnap": {
+		"source": "dist",
+		"inlineCss": true,
+		"headless": true
 	}
 }
