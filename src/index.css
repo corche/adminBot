@@ -2,105 +2,109 @@
 @import "tailwindcss";
 
 @theme {
-	--color-light-brown-100: #2d5d3a;
-	--color-light-brown-200: #38894d;
-	--color-light-brown-300: #6cbb81;
-	--color-light-brown-400: #e4e7e5;
-	--color-light-brown-500: #f3f5f4;
+  /* 녹색에서 갈색/베이지 계열로 변경 */
+  --color-light-brown-100: #8a5d3a; /* 짙은 갈색 */
+  --color-light-brown-200: #b07d50; /* 중간 갈색 */
+  --color-light-brown-300: #d6a77c; /* 연한 갈색 */
+  --color-light-brown-400: #f1e6db; /* 매우 연한 베이지 */
+  --color-light-brown-500: #f9f3ee; /* 거의 흰색에 가까운 베이지 */
 }
 
 @layer base {
-	body {
-		-ms-overflow-style: none;
-	}
+  body {
+    -ms-overflow-style: none;
+  }
 
-	::-webkit-scrollbar {
-		display: none;
-	}
+  ::-webkit-scrollbar {
+    display: none;
+  }
 
-	* {
-		font-family:
-			"Pretendard Variable",
-			Pretendard,
-			-apple-system,
-			BlinkMacSystemFont,
-			system-ui,
-			Roboto,
-			"Helvetica Neue",
-			"Segoe UI",
-			"Apple SD Gothic Neo",
-			"Noto Sans KR",
-			"Malgun Gothic",
-			"Apple Color Emoji",
-			"Segoe UI Emoji",
-			"Segoe UI Symbol",
-			sans-serif;
-		@apply text-neutral-500 font-medium break-normal [word-break:keep-all];
-	}
+  * {
+    font-family:
+      "Pretendard Variable",
+      Pretendard,
+      -apple-system,
+      BlinkMacSystemFont,
+      system-ui,
+      Roboto,
+      "Helvetica Neue",
+      "Segoe UI",
+      "Apple SD Gothic Neo",
+      "Noto Sans KR",
+      "Malgun Gothic",
+      "Apple Color Emoji",
+      "Segoe UI Emoji",
+      "Segoe UI Symbol",
+      sans-serif;
+    @apply text-neutral-500 font-medium break-normal [word-break:keep-all];
+  }
 }
 
 * {
-	transition-timing-function: cubic-bezier(0.5, 0.3, 0, 1);
+  transition-timing-function: cubic-bezier(0.5, 0.3, 0, 1);
 }
 
 .landing {
-	background: linear-gradient(
-		180deg,
-		#fff 0%,
-		#ecbe9c 40%,
-		#c0cfba 73%,
-		#a4dfdb 85%,
-		#fff 100%
-	);
+  /* 그라데이션을 이미지와 비슷한 베이지/피치 톤으로 변경 */
+  background: linear-gradient(
+    180deg,
+    #fff 0%,
+    #f4d9c6 40%, /* 피치 톤 */
+    #e8cbb1 73%, /* 베이지 톤 */
+    #f1e6db 85%, /* 연한 베이지 */
+    #fff 100%
+  );
 }
 
 .accent {
-	background: linear-gradient(90deg, #569bf6 0%, #56f6b0 100%);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+  /* 강조색도 갈색/오렌지 계열로 변경 */
+  background: linear-gradient(90deg, #e6a972 0%, #dca15e 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .list {
-	@apply w-20 h-20 bg-light-brown-500 flex items-center pt-2 justify-center flex-col rounded-2xl cursor-pointer hover:bg-light-brown-400 duration-300;
+  @apply w-20 h-20 bg-light-brown-500 flex items-center pt-2 justify-center flex-col rounded-2xl cursor-pointer hover:bg-light-brown-400 duration-300;
 
-	& * {
-		@apply text-neutral-800;
-	}
+  & * {
+    @apply text-neutral-800;
+  }
 }
 
 .list-check {
-	@apply bg-light-brown-200 hover:bg-light-brown-100;
+  @apply bg-light-brown-200 hover:bg-light-brown-100;
 
-	& * {
-		@apply text-neutral-50;
-	}
+  & * {
+    @apply text-neutral-50;
+  }
 }
 
 .card {
-	background: radial-gradient(
-		43.52% 117.5% at 47.99% 110.5%,
-		#83e79d 4.5%,
-		#83e79d 24%,
-		#ecffed 100%
-	);
+  /* 카드 배경도 갈색/베이지 계열로 변경 */
+  background: radial-gradient(
+    43.52% 117.5% at 47.99% 110.5%,
+    #e6b58e 4.5%,
+    #d6a77c 24%,
+    #f9f3ee 100%
+  );
 }
 
 .list-shadow {
-	box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.1);
 }
 
 .card-shadow {
-	box-shadow: 0 0 20px
-		color-mix(in srgb, var(--color-light-brown-300) 40%, transparent 0%);
+  box-shadow: 0 0 20px
+    color-mix(in srgb, var(--color-light-brown-300) 40%, transparent 0%);
 }
 
 .cm {
-	& > span {
-		@apply p-2 bg-light-brown-500 rounded-md;
-	}
+  & > span {
+    @apply p-2 bg-light-brown-500 rounded-md;
+  }
 
-	& > span:nth-child(1) {
-		@apply text-light-brown-200;
-	}
+  & > span:nth-child(1) {
+    @apply text-light-brown-200;
+  }
 }
