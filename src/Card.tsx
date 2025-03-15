@@ -15,7 +15,7 @@ export default function Card({
 }: CardInterface) {
 	return (
 		<div
-			className={`flex items-center gap-4 **:text-neutral-800 py-6 px-9 bg-light-green-500 rounded-2xl w-80 sm:w-100 ${_class}`}
+			className={`flex items-center gap-4 **:text-neutral-800 py-6 px-9 bg-light-brown-500 rounded-2xl w-80 sm:w-100 ${_class}`}
 		>
 			<div className="pr-2 flex items-center justify-center">{icon}</div>
 			<div className="flex flex-col">
