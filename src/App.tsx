@@ -56,12 +56,6 @@ export default function App() {
 						icon={<Wrench />}
 					/>
 					<Card
-					_class="border border-light-brown-300 card-shadow"
-						title="관리"
-						desc="밴 킥 뮤트 채널 슬로우 챗 등 가디으로 간편하게 관리해 보세요!"
-						icon={<Wrench />}
-					/>
-					<Card
 						_class="border border-light-brown-300 card-shadow"
 						title="노래"
 						desc="멜론차트, 유튜브 노래 검색, 재생목록으로 다양한 음악을 즐길 수 있어요!"
