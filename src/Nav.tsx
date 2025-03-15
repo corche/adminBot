@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 export default function Nav() {
 	const select =
-		"text-light-green-200 relative after:absolute after:bottom-0 after:left-[50%] after:translate-x-[-50%] after:rounded-2xl after:w-[20px] after:h-[2px] after:bg-light-green-200";
+		"text-light-brown-200 relative after:absolute after:bottom-0 after:left-[50%] after:translate-x-[-50%] after:rounded-2xl after:w-[20px] after:h-[2px] after:bg-light-brown-200";
 
 	const [scroll, setScroll] = useState(false);
 	const [nowPath, setNowPath] = useState("/");
@@ -43,7 +43,7 @@ export default function Nav() {
 				</div>
 				<div className="hidden text-base sm:flex justify-between w-[calc(100%-300px)] max-w-[50%] sm:max-w-[300px]">
 					<div
-						className={`cursor-pointer text-center hover:text-light-green-200`}
+						className={`cursor-pointer text-center hover:text-light-brown-200`}
 						onClick={() => {
 							window.open(
 								"https://discord.com/invite/zksAdcYeR7"
@@ -53,7 +53,7 @@ export default function Nav() {
 						서포트 서버
 					</div>
 					<div
-						className={`cursor-pointer text-center hover:text-light-green-200 ${
+						className={`cursor-pointer text-center hover:text-light-brown-200 ${
 							nowPath == "/" ? select : ""
 						}`}
 						onClick={() => {
@@ -63,7 +63,7 @@ export default function Nav() {
 						홈
 					</div>
 					<div
-						className={`cursor-pointer text-center hover:text-light-green-200 ${
+						className={`cursor-pointer text-center hover:text-light-brown-200 ${
 							nowPath == "/help" ? select : ""
 						}`}
 						onClick={() => {
@@ -75,7 +75,7 @@ export default function Nav() {
 				</div>
 				<div className="flex items-center justify-center gap-1">
 					<button
-						className="cursor-pointer w-[100px] h-[42px] flex items-center justify-center text-base text-neutral-100 bg-light-green-200 hover:bg-light-green-100 rounded-xl duration-200"
+						className="cursor-pointer w-[100px] h-[42px] flex items-center justify-center text-base text-neutral-100 bg-light-brown-200 hover:bg-light-brown-100 rounded-xl duration-200"
 						onClick={() => {
 							window.open(
 								"https://discord.com/oauth2/authorize?client_id=1336244578747154473"
