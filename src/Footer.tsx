@@ -16,7 +16,7 @@ export default function Footer() {
   };
 
   return (
-    <div className="bg-light-green-500 py-20 flex justify-center">
+    <div className="bg-light-brown-500 py-20 flex justify-center">
       <div className="w-[90vw] sm:w-[70vw] max-w-[1080px] flex justify-between">
         <div className="flex flex-col">
           <div className="text-3xl text-neutral-800 font-bold">
