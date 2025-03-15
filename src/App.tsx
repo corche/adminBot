@@ -99,8 +99,6 @@ export default function App() {
 						더이상 무슨봇을 사용할지 고민하지 말고
 						<br />
 						가디를 초대하세요!
-=======
-						가디를 초대하세요!
 					</div>
 					<button
 						className="w-[200px] border border-light-brown-200 bg-light-brown-200 py-4.5 text-neutral-100 rounded-2xl cursor-pointer hover:bg-light-brown-100 duration-300"
