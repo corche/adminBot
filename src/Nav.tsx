@@ -18,6 +18,17 @@ export default function Nav() {
 			setScroll(false);
 		}
 	};
+	
+	// 내부 페이지 이동 함수 추가
+	const handleNavigation = (path: string) => {
+		navigate(path);
+		window.scrollTo(0, 0); // 페이지 상단으로 스크롤
+	};
+	
+	// 외부 링크 이동 함수 추가
+	const handleExternalLink = (url: string) => {
+		window.open(url);
+	};
 
 	useEffect(() => {
 		window.addEventListener("scroll", handleScroll);
@@ -28,6 +39,7 @@ export default function Nav() {
 			window.removeEventListener("scroll", handleScroll);
 		};
 	}, [location.pathname]);
+	
 	return (
 		<>
 			<div
@@ -44,11 +56,7 @@ export default function Nav() {
 				<div className="hidden text-base sm:flex justify-between w-[calc(100%-300px)] max-w-[50%] sm:max-w-[300px]">
 					<div
 						className={`cursor-pointer text-center hover:text-light-brown-200`}
-						onClick={() => {
-							window.open(
-								"https://discord.com/invite/zksAdcYeR7"
-							);
-						}}
+						onClick={() => handleExternalLink("https://discord.com/invite/zksAdcYeR7")}
 					>
 						서포트 서버
 					</div>
@@ -56,9 +64,7 @@ export default function Nav() {
 						className={`cursor-pointer text-center hover:text-light-brown-200 ${
 							nowPath == "/" ? select : ""
 						}`}
-						onClick={() => {
-							navigate("/");
-						}}
+						onClick={() => handleNavigation("/")}
 					>
 						홈
 					</div>
@@ -66,9 +72,7 @@ export default function Nav() {
 						className={`cursor-pointer text-center hover:text-light-brown-200 ${
 							nowPath == "/help" ? select : ""
 						}`}
-						onClick={() => {
-							navigate("/help");
-						}}
+						onClick={() => handleNavigation("/help")}
 					>
 						도움말
 					</div>
@@ -76,11 +80,7 @@ export default function Nav() {
 				<div className="flex items-center justify-center gap-1">
 					<button
 						className="cursor-pointer w-[100px] h-[42px] flex items-center justify-center text-base text-neutral-100 bg-light-brown-200 hover:bg-light-brown-100 rounded-xl duration-200"
-						onClick={() => {
-							window.open(
-								"https://discord.com/oauth2/authorize?client_id=1336244578747154473"
-							);
-						}}
+						onClick={() => handleExternalLink("https://discord.com/oauth2/authorize?client_id=1336244578747154473")}
 					>
 						초대하기
 					</button>
