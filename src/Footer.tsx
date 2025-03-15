@@ -7,7 +7,7 @@ export default function Footer() {
 			<div className="w-[90vw] sm:w-[70vw] max-w-[1080px] flex justify-between">
 				<div className="flex flex-col">
 					<div className="text-3xl text-neutral-800 font-bold">
-						가디
+						가디봇
 					</div>
 					<div className="text-sm mt-2">
 						Copyright TeamGuardi 2025 All Right Reserved.
