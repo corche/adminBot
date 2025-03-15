@@ -50,6 +50,7 @@ export default function App() {
 				</div>
 				<div className="flex flex-row flex-wrap w-full gap-5 mt-12 max-w-[1260px] justify-center">
 					<Card
+<<<<<<< HEAD
 					_class="border border-light-brown-300 card-shadow"
 						title="관리"
 						desc="밴 킥 뮤트 채널 슬로우 챗 등 가디로 간편하게 관리해 보세요!"
@@ -57,30 +58,55 @@ export default function App() {
 					/>
 					<Card
 					_class="border border-light-brown-300 card-shadow"
+=======
+						_class="border border-light-green-300 card-shadow"
+						title="관리"
+						desc="밴 킥 뮤트 채널 슬로우 챗 등 가디으로 간편하게 관리해 보세요!"
+						icon={<Wrench />}
+					/>
+					<Card
+						_class="border border-light-green-300 card-shadow"
+>>>>>>> 1935d4b6b05a17cd763dca968aff19aa3681e1e7
 						title="노래"
 						desc="멜론차트, 유튜브 노래 검색, 재생목록으로 다양한 음악을 즐길 수 있어요!"
 						icon={<Music2 />}
 					/>
 					<Card
+<<<<<<< HEAD
 					_class="border border-light-brown-300 card-shadow"
+=======
+						_class="border border-light-green-300 card-shadow"
+>>>>>>> 1935d4b6b05a17cd763dca968aff19aa3681e1e7
 						title="경제"
 						desc="돈을 모아서 때부자가 되어보자구요."
 						icon={<CircleDollarSign />}
 					/>
 					<Card
+<<<<<<< HEAD
 					_class="border border-light-brown-300 card-shadow"
+=======
+						_class="border border-light-green-300 card-shadow"
+>>>>>>> 1935d4b6b05a17cd763dca968aff19aa3681e1e7
 						title="주식"
 						desc="시시각각 변하는 주식 시장에서 얼마나 큰 돈을 따낼 수 있을까요?"
 						icon={<ChartNoAxesCombined />}
 					/>
 					<Card
+<<<<<<< HEAD
 					_class="border border-light-brown-300 card-shadow"
+=======
+						_class="border border-light-green-300 card-shadow"
+>>>>>>> 1935d4b6b05a17cd763dca968aff19aa3681e1e7
 						title="게임"
 						desc="가위, 바위, 보! 이번엔 제가 이겼네요!😎"
 						icon={<Dices />}
 					/>
 					<Card
+<<<<<<< HEAD
 					_class="border border-light-brown-300 card-shadow"
+=======
+						_class="border border-light-green-300 card-shadow"
+>>>>>>> 1935d4b6b05a17cd763dca968aff19aa3681e1e7
 						title="레벨"
 						desc="다른 유저들보다 얼마나 많은 레벨을 쌓을 수 있나요? 채팅을 쳐서 레벨을 올려보세요!"
 						icon={<ChartLine />}
@@ -92,7 +118,11 @@ export default function App() {
 					<div className="text-center text-3xl sm:text-4xl text-neutral-800 font-bold">
 						더이상 무슨봇을 사용할지 고민하지 말고
 						<br />
+<<<<<<< HEAD
 						가디을 초대하세요!
+=======
+						가디를 초대하세요!
+>>>>>>> 1935d4b6b05a17cd763dca968aff19aa3681e1e7
 					</div>
 					<button
 						className="w-[200px] border border-light-brown-200 bg-light-brown-200 py-4.5 text-neutral-100 rounded-2xl cursor-pointer hover:bg-light-brown-100 duration-300"

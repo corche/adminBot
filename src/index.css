@@ -47,15 +47,15 @@
 	background: linear-gradient(
 		180deg,
 		#fff 0%,
-		#bcf2e7 40%,
-		#83e79d 73%,
-		#bef2cc 85%,
+		#ecbe9c 40%,
+		#c0cfba 73%,
+		#a4dfdb 85%,
 		#fff 100%
 	);
 }
 
 .accent {
-	background: linear-gradient(90deg, #37c3ff 0%, #53ff81 100%);
+	background: linear-gradient(90deg, #569bf6 0%, #56f6b0 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
