@@ -39,8 +39,8 @@ export default function Nav() {
 				} fixed top-0 px-2 rounded-2xl h-[60px] flex justify-between items-center duration-500 ml-[50vw] translate-x-[-50%] z-10 max-w-[1500px]`}
 			>
 				<div className="text-2xl ml-6 font-bold text-neutral-800 w-[80px] flex gap-1 items-center">
-					<img src="adminBot.ico" width={30} height={30} />
-					관리봇
+					<img src="guardi.ico" width={30} height={30} />
+					가디
 				</div>
 				<div className="hidden text-base sm:flex justify-between w-[calc(100%-300px)] max-w-[50%] sm:max-w-[300px]">
 					<div

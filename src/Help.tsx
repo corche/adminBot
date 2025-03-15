@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 import Nav from "./Nav";
-import helpImage from "../assets/adminbot.png";
+import helpImage from "../assets/guardi.png";
 
 export default function Help() {
   return (
@@ -13,43 +13,43 @@ export default function Help() {
         <div className="px-[20vw] pt-[80px] pb-10 flex flex-col gap-10 text-black">
           {/* 배너 이미지 */}
           <div className="flex justify-center mb-5">
-            <img src={helpImage} alt="관리봇" style={{ width: "200px", height: "auto" }} />
+            <img src={helpImage} alt="가디" style={{ width: "200px", height: "auto" }} />
           </div>
           
           {/* 도움말 헤더 */}
           <div className="flex flex-col gap-4">
-            <div className="text-4xl font-bold text-green-600">
+            <div className="text-4xl font-bold text-brown-600">
               도움말
             </div>
             <div className="text-md">
-              관리봇의 모든 명령어에 대한 설명입니다.
+              가디의 모든 명령어에 대한 설명입니다.
             </div>
             <div className="p-5 bg-white bg-opacity-50 rounded-2xl shadow-sm">
-              <div className="font-bold text-gray-700">관리봇 도움말</div>
-              일반명령어(!, {">"}, @관리봇)로도 사용하실 수 있습니다.
+              <div className="font-bold text-gray-700">가디 도움말</div>
+              일반명령어(!, {">"}, @가디)로도 사용하실 수 있습니다.
             </div>
           </div>
 
           {/* 가입 기능 */}
           <div className="flex flex-col gap-5">
-            <div className="text-2xl font-bold text-green-600">
+            <div className="text-2xl font-bold text-brown-600">
               👋 가입기능
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
               <div className="flex items-start mb-3">
-                <span className="font-bold text-green-600 mr-2">/가입</span>
-                <span>- 관리봇 서비스에 가입합니다.</span>
+                <span className="font-bold text-brown-600 mr-2">/가입</span>
+                <span>- 가디 서비스에 가입합니다.</span>
               </div>
               <div className="flex items-start">
-                <span className="font-bold text-green-600 mr-2">/탈퇴</span>
-                <span>- 관리봇 서비스에서 탈퇴합니다.</span>
+                <span className="font-bold text-brown-600 mr-2">/탈퇴</span>
+                <span>- 가디 서비스에서 탈퇴합니다.</span>
               </div>
             </div>
           </div>
 
           {/* 관리 기능 */}
           <div className="flex flex-col gap-5">
-            <div className="text-2xl font-bold text-green-600">
+            <div className="text-2xl font-bold text-brown-600">
               ⚙️ 관리기능
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
@@ -68,7 +68,7 @@ export default function Help() {
                 { command: "/역할부여 [유저] [역할]", description: "[유저] 에게 [역할] 을 부여합니다." },
               ].map(({ command, description }, index) => (
                 <div className="flex items-start mb-3" key={index}>
-                  <span className="font-bold text-green-600 mr-2">{command}</span>
+                  <span className="font-bold text-brown-600 mr-2">{command}</span>
                   <span>- {description}</span>
                 </div>
               ))}
@@ -77,7 +77,7 @@ export default function Help() {
 
           {/* 노래 기능 */}
           <div className="flex flex-col gap-5">
-            <div className="text-2xl font-bold text-green-600">
+            <div className="text-2xl font-bold text-brown-600">
               🎵 노래기능
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
@@ -91,7 +91,7 @@ export default function Help() {
                 { command: "/멜론차트", description: "멜론차트 TOP 100을 확인합니다" },
               ].map(({ command, description }, index) => (
                 <div className="flex items-start mb-3" key={index}>
-                  <span className="font-bold text-green-600 mr-2">{command}</span>
+                  <span className="font-bold text-brown-600 mr-2">{command}</span>
                   <span>- {description}</span>
                 </div>
               ))}
@@ -100,7 +100,7 @@ export default function Help() {
 
           {/* 주식 기능 */}
           <div className="flex flex-col gap-5">
-            <div className="text-2xl font-bold text-green-600">
+            <div className="text-2xl font-bold text-brown-600">
               📊 주식 기능
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
@@ -111,7 +111,7 @@ export default function Help() {
                 { command: "/보유주식", description: "보유주식을 확인합니다." },
               ].map(({ command, description }, index) => (
                 <div className="flex items-start mb-3" key={index}>
-                  <span className="font-bold text-green-600 mr-2">{command}</span>
+                  <span className="font-bold text-brown-600 mr-2">{command}</span>
                   <span>- {description}</span>
                 </div>
               ))}
@@ -120,7 +120,7 @@ export default function Help() {
 
           {/* 경제제 */}
           <div className="flex flex-col gap-5">
-            <div className="text-2xl font-bold text-green-600">
+            <div className="text-2xl font-bold text-brown-600">
               💰 경제 기능
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
@@ -132,7 +132,7 @@ export default function Help() {
                 { command: "/송금내역", description: "최근 2주간의 모든 송금내역을 확인합니다." },
               ].map(({ command, description }, index) => (
                 <div className="flex items-start mb-3" key={index}>
-                  <span className="font-bold text-green-600 mr-2">{command}</span>
+                  <span className="font-bold text-brown-600 mr-2">{command}</span>
                   <span>- {description}</span>
                 </div>
               ))}
@@ -141,7 +141,7 @@ export default function Help() {
 
           {/* 게임 기능 */}
           <div className="flex flex-col gap-5">
-            <div className="text-2xl font-bold text-green-600">
+            <div className="text-2xl font-bold text-brown-600">
               🎲 게임 기능
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
@@ -151,7 +151,7 @@ export default function Help() {
                 { command: "/도박 [금액]", description: "돈을 걸고 도박을 합니다." },
               ].map(({ command, description }, index) => (
                 <div className="flex items-start mb-3" key={index}>
-                  <span className="font-bold text-green-600 mr-2">{command}</span>
+                  <span className="font-bold text-brown-600 mr-2">{command}</span>
                   <span>- {description}</span>
                 </div>
               ))}
@@ -160,7 +160,7 @@ export default function Help() {
 
           {/* 레벨링 기능 */}
           <div className="flex flex-col gap-5">
-            <div className="text-2xl font-bold text-green-600">
+            <div className="text-2xl font-bold text-brown-600">
               📱 레벨링 기능
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
@@ -169,7 +169,7 @@ export default function Help() {
                 { command: "/랭킹", description: "서버 레벨 랭킹을 확인합니다." },
               ].map(({ command, description }, index) => (
                 <div className="flex items-start mb-3" key={index}>
-                  <span className="font-bold text-green-600 mr-2">{command}</span>
+                  <span className="font-bold text-brown-600 mr-2">{command}</span>
                   <span>- {description}</span>
                 </div>
               ))}
@@ -178,17 +178,17 @@ export default function Help() {
 
           {/* 기타 기능 */}
           <div className="flex flex-col gap-5 mb-10">
-            <div className="text-2xl font-bold text-green-600">
+            <div className="text-2xl font-bold text-brown-600">
               🛠️ 기타 기능
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
               {[
-                { command: "/봇정보", description: "관리봇의 정보를 확인합니다." },
+                { command: "/봇정보", description: "가디의 정보를 확인합니다." },
                 { command: "/서버정보", description: "서버정보를 확인합니다." },
                 { command: "/하트인증", description: "한국 디스코드 리스트 하트인증을 진행하고 보상을 받습니다." },
               ].map(({ command, description }, index) => (
                 <div className="flex items-start mb-3" key={index}>
-                  <span className="font-bold text-green-600 mr-2">{command}</span>
+                  <span className="font-bold text-brown-600 mr-2">{command}</span>
                   <span>- {description}</span>
                 </div>
               ))}

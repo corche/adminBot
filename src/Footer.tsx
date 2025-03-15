@@ -7,10 +7,10 @@ export default function Footer() {
 			<div className="w-[90vw] sm:w-[70vw] max-w-[1080px] flex justify-between">
 				<div className="flex flex-col">
 					<div className="text-3xl text-neutral-800 font-bold">
-						관리봇
+						가디
 					</div>
 					<div className="text-sm mt-2">
-						Copyright Yangpa 2025 All Right Reserved.
+						Copyright Team Guard 2025 All Right Reserved.
 					</div>
 				</div>
 				<div className="flex flex-col gap-2">
@@ -43,6 +43,18 @@ export default function Footer() {
 						}
 					>
 						서포트 서버
+					</div>
+					<div
+						className="cursor-pointer text-sm hover:text-neutral-600 underline"
+						onClick={() => navigation("/tos")}
+					>
+						서비스 이용약관
+					</div>
+					<div
+						className="cursor-pointer text-sm hover:text-neutral-600 underline"
+						onClick={() => navigation("/privacy")}
+					>
+						개인정보 처리방침
 					</div>
 				</div>
 			</div>
