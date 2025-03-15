@@ -2,11 +2,11 @@
 @import "tailwindcss";
 
 @theme {
-	--color-light-green-100: #2d5d3a;
-	--color-light-green-200: #38894d;
-	--color-light-green-300: #6cbb81;
-	--color-light-green-400: #e4e7e5;
-	--color-light-green-500: #f3f5f4;
+	--color-light-brown-100: #2d5d3a;
+	--color-light-brown-200: #38894d;
+	--color-light-brown-300: #6cbb81;
+	--color-light-brown-400: #e4e7e5;
+	--color-light-brown-500: #f3f5f4;
 }
 
 @layer base {
