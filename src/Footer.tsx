@@ -10,7 +10,7 @@ export default function Footer() {
 						가디
 					</div>
 					<div className="text-sm mt-2">
-						Copyright Team Guard 2025 All Right Reserved.
+						Copyright Yangpa 2025 All Right Reserved.
 					</div>
 				</div>
 				<div className="flex flex-col gap-2">
