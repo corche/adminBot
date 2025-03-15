@@ -1,8 +1,8 @@
 import Footer from "./Footer";
 import Nav from "./Nav";
-import helpImage from "../assets/guardi.png";
+import tosImage from "../assets/guardi.png";
 
-export default function Help() {
+export default function Tos() {
   return (
     <>
       <Nav />
@@ -13,7 +13,7 @@ export default function Help() {
         <div className="px-[20vw] pt-[80px] pb-10 flex flex-col gap-10 text-black">
           {/* 배너 이미지 */}
           <div className="flex justify-center mb-5">
-            <img src={helpImage} alt="가디" style={{ width: "200px", height: "auto" }} />
+            <img src={tosImage} alt="가디" style={{ width: "200px", height: "auto" }} />
           </div>
           
           {/* 이용약관 헤더 */}
