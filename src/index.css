@@ -62,7 +62,7 @@
 }
 
 .list {
-	@apply w-20 h-20 bg-light-green-500 flex items-center pt-2 justify-center flex-col rounded-2xl cursor-pointer hover:bg-light-green-400 duration-300;
+	@apply w-20 h-20 bg-light-brown-500 flex items-center pt-2 justify-center flex-col rounded-2xl cursor-pointer hover:bg-light-brown-400 duration-300;
 
 	& * {
 		@apply text-neutral-800;
@@ -70,7 +70,7 @@
 }
 
 .list-check {
-	@apply bg-light-green-200 hover:bg-light-green-100;
+	@apply bg-light-brown-200 hover:bg-light-brown-100;
 
 	& * {
 		@apply text-neutral-50;
@@ -92,15 +92,15 @@
 
 .card-shadow {
 	box-shadow: 0 0 20px
-		color-mix(in srgb, var(--color-light-green-300) 40%, transparent 0%);
+		color-mix(in srgb, var(--color-light-brown-300) 40%, transparent 0%);
 }
 
 .cm {
 	& > span {
-		@apply p-2 bg-light-green-500 rounded-md;
+		@apply p-2 bg-light-brown-500 rounded-md;
 	}
 
 	& > span:nth-child(1) {
-		@apply text-light-green-200;
+		@apply text-light-brown-200;
 	}
 }
