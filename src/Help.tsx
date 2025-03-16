@@ -25,7 +25,8 @@ export default function Help() {
               가디의 모든 명령어에 대한 설명입니다.
             </div>
             <div className="p-5 bg-white bg-opacity-50 rounded-2xl shadow-sm">
-              <div className="font-bold text-gray-700">가디 도움말</div>
+              <div className="font-bold text-gray-700">Prefix</div>
+              /(빗금명령어)
               일반명령어(!, {">"}, @가디)로도 사용하실 수 있습니다.
             </div>
           </div>
@@ -33,7 +34,7 @@ export default function Help() {
           {/* 가입 기능 */}
           <div className="flex flex-col gap-5">
             <div className="text-2xl font-bold text-brown-600">
-              👋 가입기능
+              👋 가입/탈퇴
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
               <div className="flex items-start mb-3">
@@ -44,6 +45,24 @@ export default function Help() {
                 <span className="font-bold text-brown-600 mr-2">/탈퇴</span>
                 <span>- 가디 서비스에서 탈퇴합니다.</span>
               </div>
+            </div>
+          </div>
+
+          {/* AI챗봇 */}
+          <div className="flex flex-col gap-5">
+            <div className="text-2xl font-bold text-brown-600">
+              🤖AI챗봇봇
+              </div>
+            <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
+              {[
+                { command: "가디야 [할말]", description: "가디와 자유롭게 대화할 수 있습니다." },
+                { command: "/배워 [키워드|응답]", description: "가디에게 지식을 가르칩니다." },
+              ].map(({ command, description }, index) => (
+                <div className="flex items-start mb-3" key={index}>
+                  <span className="font-bold text-brown-600 mr-2">{command}</span>
+                  <span>- {description}</span>
+                </div>
+              ))}
             </div>
           </div>
 
