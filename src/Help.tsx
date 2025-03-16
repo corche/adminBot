@@ -26,9 +26,7 @@ export default function Help() {
             </div>
             <div className="p-5 bg-white bg-opacity-50 rounded-2xl shadow-sm">
               <div className="font-bold text-gray-700">Prefix</div>
-              /(빗금명령어)
-            </div>
-            <div className="p-5 bg-white bg-opacity-50 rounded-2xl shadow-sm">
+              빗금명령어(/)뿐만 아니라
               일반명령어(!, {">"}, @가디)로도 사용하실 수 있습니다.
             </div>
           </div>
