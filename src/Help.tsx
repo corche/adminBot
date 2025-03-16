@@ -27,6 +27,8 @@ export default function Help() {
             <div className="p-5 bg-white bg-opacity-50 rounded-2xl shadow-sm">
               <div className="font-bold text-gray-700">Prefix</div>
               /(빗금명령어)
+            </div>
+            <div className="p-5 bg-white bg-opacity-50 rounded-2xl shadow-sm">
               일반명령어(!, {">"}, @가디)로도 사용하실 수 있습니다.
             </div>
           </div>
@@ -51,7 +53,7 @@ export default function Help() {
           {/* AI챗봇 */}
           <div className="flex flex-col gap-5">
             <div className="text-2xl font-bold text-brown-600">
-              🤖AI챗봇봇
+              🤖AI챗봇
               </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
               {[
