@@ -31,7 +31,7 @@ export default function Help() {
             </div>
           </div>
 
-          {/* 가입 기능 */}
+          {/* 가입 */}
           <div className="flex flex-col gap-5">
             <div className="text-2xl font-bold text-brown-600">
               👋 가입/탈퇴
@@ -51,7 +51,7 @@ export default function Help() {
           {/* AI챗봇 */}
           <div className="flex flex-col gap-5">
             <div className="text-2xl font-bold text-brown-600">
-              🤖AI챗봇
+              🤖 AI챗봇
               </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
               {[
@@ -66,10 +66,10 @@ export default function Help() {
             </div>
           </div>
 
-          {/* 관리 기능 */}
+          {/* 관리 */}
           <div className="flex flex-col gap-5">
             <div className="text-2xl font-bold text-brown-600">
-              ⚙️ 관리기능
+              ⚙️ 관리
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
               {[
@@ -94,33 +94,10 @@ export default function Help() {
             </div>
           </div>
 
-          {/* 노래 기능 */}
+          {/* 주식 */}
           <div className="flex flex-col gap-5">
             <div className="text-2xl font-bold text-brown-600">
-              🎵 노래기능
-            </div>
-            <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
-              {[
-                { command: "/입장", description: "봇을 음성채널에 입장시킵니다." },
-                { command: "/퇴장", description: "봇을 음성채널에서 퇴장시킵니다." },
-                { command: "/재생 [노래 제목]", description: "[노래 제목] 을 재생합니다." },
-                { command: "/대기열추가 [노래 제목]", description: "[노래 제목] 을 대기열에 추가합니다." },
-                { command: "/정지", description: "현재 재생 중인 노래를 정지하고 다음노래를 재생합니다." },
-                { command: "/재생목록", description: "현재 대기열을 확인합니다." },
-                { command: "/멜론차트", description: "멜론차트 TOP 100을 확인합니다" },
-              ].map(({ command, description }, index) => (
-                <div className="flex items-start mb-3" key={index}>
-                  <span className="font-bold text-brown-600 mr-2">{command}</span>
-                  <span>- {description}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* 주식 기능 */}
-          <div className="flex flex-col gap-5">
-            <div className="text-2xl font-bold text-brown-600">
-              📊 주식 기능
+              📊 주식
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
               {[
@@ -137,10 +114,10 @@ export default function Help() {
             </div>
           </div>
 
-          {/* 경제제 */}
+          {/* 경제 */}
           <div className="flex flex-col gap-5">
             <div className="text-2xl font-bold text-brown-600">
-              💰 경제 기능
+              💰 경제
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
               {[
@@ -158,10 +135,10 @@ export default function Help() {
             </div>
           </div>
 
-          {/* 게임 기능 */}
+          {/* 게임 */}
           <div className="flex flex-col gap-5">
             <div className="text-2xl font-bold text-brown-600">
-              🎲 게임 기능
+              🎲 게임
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
               {[
@@ -177,10 +154,31 @@ export default function Help() {
             </div>
           </div>
 
-          {/* 레벨링 기능 */}
+          {/* 학교 */}
           <div className="flex flex-col gap-5">
             <div className="text-2xl font-bold text-brown-600">
-              📱 레벨링 기능
+              🏫 학교
+            </div>
+            <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
+              {[
+                { command: "/학교검색", description: "학교를 검색하고 등록합니다." },
+                { command: "/학교변경", description: "등록한 학교를 가디 데이터베이스에서 제거합니다." },
+                { command: "/학교정보", description: "등록한 학교의 정보를 조회합니다." },
+                { command: "/급식", description: "특정 날짜의 급식을 조회합니다." },
+                { command: "/시간표", description: "특정 날짜의 시간표를 조회합니다." },
+              ].map(({ command, description }, index) => (
+                <div className="flex items-start mb-3" key={index}>
+                  <span className="font-bold text-brown-600 mr-2">{command}</span>
+                  <span>- {description}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* 레벨링 */}
+          <div className="flex flex-col gap-5">
+            <div className="text-2xl font-bold text-brown-600">
+              📱 레벨링
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
               {[
@@ -195,10 +193,10 @@ export default function Help() {
             </div>
           </div>
 
-          {/* 기타 기능 */}
+          {/* 기타 */}
           <div className="flex flex-col gap-5 mb-10">
             <div className="text-2xl font-bold text-brown-600">
-              🛠️ 기타 기능
+              🛠️ 기타
             </div>
             <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
               {[
