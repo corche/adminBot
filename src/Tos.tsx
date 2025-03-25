@@ -115,10 +115,10 @@ export default function Tos() {
                 <li>
                   <p className="font-semibold">기타 기능</p>
                   <ul className="list-disc pl-5">
-                    <li>레벨링 시스템</li>
-                    <li>주식 시스템</li>
-                    <li>경제 시스템</li>
-                    <li>노래 재생</li>
+                    <li>레벨링 기능</li>
+                    <li>주식 기능</li>
+                    <li>경제 기능</li>
+                    <li>학교 기능</li>
                     <li>서버 정보/봇 정보 확인</li>
                   </ul>
                 </li>
@@ -155,6 +155,7 @@ export default function Tos() {
                     <li>유저 닉네임, 유저 ID</li>
                     <li>유저의 봇 사용 기록</li>
                     <li>서버에서의 봇 사용 기록</li>
+                    <li>등록한 학교 정보</li>
                   </ul>
                 </li>
                 <li>
@@ -163,6 +164,7 @@ export default function Tos() {
                     <li>로그 조회를 통한 오류 해결</li>
                     <li>봇 악용 사례 적발 및 블랙리스트 관리</li>
                     <li>문의자 분류 및 대응</li>
+                    <li>학교 기능들 제공</li>
                   </ul>
                 </li>
                 <li>팀은 수집한 개인정보를 제3자에게 제공하지 않습니다.</li>
