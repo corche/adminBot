@@ -48,6 +48,7 @@ export default function Privacy() {
                     <li>유저 닉네임, 유저 ID</li>
                     <li>유저의 봇 사용 기록</li>
                     <li>서버에서의 봇 사용 기록</li>
+                    <li>등록한 학교 정보</li>
                   </ul>
                 </li>
                 <li>
@@ -56,6 +57,7 @@ export default function Privacy() {
                     <li>디스코드 서버에 봇을 초대하는 과정에서 자동 수집</li>
                     <li>사용자가 봇을 사용하는 과정에서 자동 수집</li>
                     <li>디스코드 API를 통한 수집</li>
+                    <li>사용자가 특정 명령어를 사용하면 수집</li>
                   </ul>
                 </li>
               </ol>
