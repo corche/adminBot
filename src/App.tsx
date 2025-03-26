@@ -17,8 +17,8 @@ export default function App() {
 			<div className="landing pt-50 overflow-visible">
 				<div className="flex flex-col items-center">
 					<div className="text-5xl sm:text-6xl font-bold text-center text-neutral-800">
-						디스코드에 필요한 기능을
-						<br />단 <span className="accent font-bold">하나</span>
+						디스코드를 
+						<br />더욱 제밌게, <span className="accent font-bold">가디!</span>
 						로.
 					</div>
 					<div className="text-lg text-center mt-5 leading-6">
