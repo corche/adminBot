@@ -56,7 +56,7 @@ export default function App() {
 					<Card
 					_class="border border-light-brown-300 card-shadow"
 						title="AI채팅"
-						desc="귀욤뽀작 AI 가디 등장! 가디와 자유롭게 이야기를 나눠보세요."
+						desc="귀욤뽀짝 AI 가디 등장! 가디와 자유롭게 이야기를 나눠보세요."
 						icon={<Wrench />}
 					/>
 					<Card
