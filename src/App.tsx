@@ -3,7 +3,6 @@ import {
 	ChartNoAxesCombined,
 	CircleDollarSign,
 	Dices,
-	Music2,
 	Wrench,
 } from "lucide-react";
 import Nav from "./Nav";
@@ -18,7 +17,7 @@ export default function App() {
 				<div className="flex flex-col items-center">
 					<div className="text-5xl sm:text-6xl font-bold text-center text-neutral-800">
 						디스코드를 
-						<br />더욱 제밌게, <span className="accent font-bold">가디!</span>
+						<br />더욱 재밌게, <span className="accent font-bold">가디!</span>
 					</div>
 					<div className="text-lg text-center mt-5 leading-6">
 						그동안 유저를 관리하는데 골치가 아프셨나요? 아니면 악질
@@ -53,12 +52,6 @@ export default function App() {
 						title="관리"
 						desc="밴 킥 뮤트 채널 슬로우 챗 등 가디로 간편하게 관리해 보세요!"
 						icon={<Wrench />}
-					/>
-					<Card
-						_class="border border-light-brown-300 card-shadow"
-						title="노래"
-						desc="멜론차트, 유튜브 노래 검색, 재생목록으로 다양한 음악을 즐길 수 있어요!"
-						icon={<Music2 />}
 					/>
 					<Card
 					_class="border border-light-brown-300 card-shadow"
