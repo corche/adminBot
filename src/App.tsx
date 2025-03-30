@@ -55,6 +55,12 @@ export default function App() {
 					/>
 					<Card
 					_class="border border-light-brown-300 card-shadow"
+						title="AI채팅"
+						desc="귀욤뽀작 AI 가디 등장! 가디와 자유롭게 이야기를 나눠보세요."
+						icon={<Wrench />}
+					/>
+					<Card
+					_class="border border-light-brown-300 card-shadow"
 						title="경제"
 						desc="돈을 모아서 때부자가 되어보자구요."
 						icon={<CircleDollarSign />}
