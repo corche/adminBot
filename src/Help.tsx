@@ -94,6 +94,28 @@ export default function Help() {
             </div>
           </div>
 
+          {/* 티켓 */}
+          <div className="flex flex-col gap-5">
+            <div className="text-2xl font-bold text-brown-600">
+              🎫 티켓
+            </div>
+            <div className="bg-white bg-opacity-50 p-4 rounded-lg shadow-sm">
+              {[
+                { command: "/티켓 설정", description: "티켓 시스템을 설정합니다." },
+                { command: "/티켓 패널", description: "티켓 생성 패널을 만듭니다." },
+                { command: "/티켓 목록", description: "모든 티켓 목록을 확인합니다." },
+                { command: "/티켓 닫기", description: "티켓을 닫습니다." },
+                { command: "/티켓 삭제", description: "티켓을 삭제합니다." },
+                { command: "/티켓 대화내용", description: "티켓의 대화내용을 확인합니다." },
+              ].map(({ command, description }, index) => (
+                <div className="flex items-start mb-3" key={index}>
+                  <span className="font-bold text-brown-600 mr-2">{command}</span>
+                  <span>- {description}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
           {/* 주식 */}
           <div className="flex flex-col gap-5">
             <div className="text-2xl font-bold text-brown-600">
