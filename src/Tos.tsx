@@ -85,31 +85,31 @@ export default function Tos() {
                 <li>
                   <p className="font-semibold">서버 관리 기능</p>
                   <ul className="list-disc pl-5">
-                    <li>메시지 청소</li>
-                    <li>채널 슬로우모드 설정/해제</li>
+                    <li>메시지 청소 기능</li>
+                    <li>채널 슬로우모드 설정/해제 기능</li>
                   </ul>
                 </li>
                 <li>
                   <p className="font-semibold">유저 관리 기능</p>
                   <ul className="list-disc pl-5">
-                    <li>킥, 벤, 뮤트, 언뮤트</li>
-                    <li>타임아웃, 타임아웃 해제</li>
-                    <li>역할 부여</li>
+                    <li>킥, 벤, 뮤트, 언뮤트 기능</li>
+                    <li>타임아웃, 타임아웃 해제 기능</li>
+                    <li>역할 부여 기능</li>
                   </ul>
                 </li>
                 <li>
                   <p className="font-semibold">AI 채팅 기능</p>
                   <ul className="list-disc pl-5">
                     <li>일반 대화 기능</li>
-                    <li>사용자 지식 학습 기능(/배워 명령어)</li>
+                    <li>사용자 지식 학습 기능</li>
                   </ul>
                 </li>
                 <li>
                   <p className="font-semibold">게임 기능</p>
                   <ul className="list-disc pl-5">
-                    <li>주사위</li>
-                    <li>가위바위보</li>
-                    <li>도박</li>
+                    <li>주사위 기능</li>
+                    <li>가위바위보 기능</li>
+                    <li>도박 기능</li>
                   </ul>
                 </li>
                 <li>
@@ -120,6 +120,7 @@ export default function Tos() {
                     <li>경제 기능</li>
                     <li>학교 기능</li>
                     <li>서버 정보/봇 정보 확인</li>
+                    <li>티켓 기능</li>
                   </ul>
                 </li>
               </ol>
