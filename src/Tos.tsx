@@ -120,7 +120,6 @@ export default function Tos() {
                     <li>경제 기능</li>
                     <li>학교 기능</li>
                     <li>서버 정보/봇 정보 확인</li>
-                    <li>티켓 기능</li>
                   </ul>
                 </li>
               </ol>
